@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -71,4 +73,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 you can download and simply run using npm start command
 
-npm start okkK
+# npm start okkK
+
+# Animated-Weather-App
+
+Revolutionized weather tracking! Merged ReactJS &amp; Framer Motion for stunning animations. Integrated React Icons, Axios, and efficient state management. Real-time weather updates via FreeWeather API. 🌦️ #ReactJS #FramerMotion #APIIntegration
+
+> > > > > > > ea6a9bc5a870d69b87a03c5141633cd6198178b8
+
+# Animated-Weather-App
+
+Implemented dynamic weather animations using Framer Motion, integrated React Icons for a polished UI, utilized Axios for efficient data fetching from FreeWeather API, and optimized state management. Crafted a seamless ReactJS Weather Search App, delivering a visually stunning and user-friendly experience. #WeatherApp #ReactJS #FramerMotion #APIIntegration
