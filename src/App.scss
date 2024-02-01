@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+$f1: "Bebas Neue", sans-serif;
+$f2: "Orbitron", sans-serif;
+body {
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+  ::selection {
+    color: transparent;
+  }
+}
+.main {
+  background-color: #b208ff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: solid #b208ff 1px;
+  .h1 {
+    position: absolute;
+    font-family: $f1;
+    font-size: 22vw;
+    cursor: default;
+    color: transparent;
+    -webkit-text-stroke: #b0a5b570 1px;
+    font-weight: bolder;
+  }
+  .appSec {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    height: 350px;
+    width: 350px;
+    background-color: rgba(165, 158, 158, 0.474);
+    border: solid wheat 1px;
+    position: absolute;
+    box-shadow: 3px 3px 3px rgb(147, 159, 219);
+    padding: 10px;
+    .upper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .location {
+      font-size: 30px;
+    }
+    .left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+    }
+    .menu {
+      font-size: 30px;
+      margin-top: 5px;
+    }
+    .upper {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    h1 {
+      font-family: $f2;
+      font-size: 15px;
+    }
+    .searchsection {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      input::placeholder {
+        color: white;
+        font-family: $f2;
+      }
+      .search {
+        background-color: transparent;
+        outline: none;
+        border: solid white 1px;
+        padding: 10px;
+        color: white;
+      }
+      button {
+        border: none;
+        padding: 10px;
+        color: white;
+        border: solid white 1px;
+        background-color: #b108ff6c;
+        font-family: $f2;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+    }
+    .weather {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 150px;
+      flex-direction: column;
+      .weather-m {
+        font-size: 70px;
+        color: rgba(250, 235, 215, 0.686);
+      }
+      h1 {
+        font-size: 20px;
+      }
+    }
+    .lastsection {
+      font-family: $f2;
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      text-align: center;
+      align-items: center;
+      height: 150px;
+      margin: 0% 3%;
+    }
+  }
+}
